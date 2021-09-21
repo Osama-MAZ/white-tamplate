@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+}
+.text {
+    text-decoration: none;
+    text-align: center;
+    color: #00bcd4;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+html { scroll-behavior: smooth; }
+
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #009688, #4CAF50, #9C27B0, #673AB7, #3F51B5, #2196F3, #00BCD4);
+    background: #E91E63;
+}
+.logo a {
+    text-decoration: none;
+}
+nav .nav-link {
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+nav .nav-link ul {
+    list-style: none;
+}
+nav .nav-link ul li {
+    display: inline-block;
+}
+nav .nav-link ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #00bcd4;
+    text-decoration: none;
+}
+nav .nav-link ul li.active {
+    background-color: rgb(71, 71, 99);
+    transition: 0.3s ease background-color;
+}
+nav .nav-link ul li.active a {
+    color: white;
+}
+.sec {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#one {
+    background-color: #009688;
+}
+#two {
+    background-color: #4CAF50;
+}
+#three {
+    background-color: #9C27B0;
+}
+#four {
+    background-color: #673AB7;
+}
+#five {
+    background-color: #3F51B5;
+}
+#six {
+    background-color: #2196F3;
+}
+#seven {
+    background-color: #00BCD4;
+}
+
